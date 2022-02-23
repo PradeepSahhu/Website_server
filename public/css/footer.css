@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.social-media{
+    background-color: #203239;
+    color: #EEEDDE;
+    padding: 1%;
+    font-family: 'Ubuntu','san-serif';
+}
+/* image */
+.social-media img{
+    position: relative;
+    bottom: 70px;
+}
+.social-media h3 span{
+    font-size: 10px;
+}
+.social-primary, .social-secondary{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.social-primary{
+    margin-left: 2%;
+}
+.social-primary a, .social-secondary a{
+    text-decoration: none;
+    color:#EEEDDE;
+}
+.social-primary a:hover, .social-secondary a:hover{
+    text-decoration:solid;
+    color: #F90716;
+}
+/* .social-primary a:visited, .social-secondary a:visited{
+    text-decoration:solid;
+    color: red;
+} */
+.social-media .social-primary, .social-media .social-secondary{
+    position: relative;
+    left: 65%;
+}

@@ -1,0 +1,44 @@
+
+<head>
+    <!-- css linking -->
+    <link rel="stylesheet" href="/css/input.css">
+
+</head>
+    
+    
+    
+
+
+<body>
+    <%- include('partials/header') -%>
+    <section class="main">
+        <div>
+            <h1>Administrative privileges</h1>
+        </div>
+        <form action="/project">
+            <div>
+            <label for="file">Upload image</label>
+            <input type="file" accept="image/*" placeholder="Images" name="image">
+            </div>
+            <div>
+            <label for="title">Project Name
+            <input type="text" placeholder=" Project" name="title" size="50"></label>
+            </div>
+            
+            <label for="content">Description</label>
+            <div>
+            
+            <textarea name="content" cols="150" rows="15" placeholder="Detailed Description"></textarea>
+            </div>
+            <div>
+                <label for="checkbox">Do you want to add More?
+                <input type="checkbox"> </label>
+                </div>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+    
+</body>
+<footer>
+    <%- include('partials/footer') -%>
+</footer>

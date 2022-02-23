@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 body{
   padding: 0;
   margin: 0;
+  font-family: 'Ubuntu';
 }
 p {
  font-weight:bold;
@@ -25,7 +27,7 @@ h2 {
   display: table;
   width: 90%;
   margin: 10px auto;
-  font-family: sans-serif;
+  font-family: 'Ubuntu';
   background: transparent;
   padding: 12px;
   color: #555;
@@ -95,4 +97,8 @@ h2 {
 }
 .books a {
   text-decoration: none;
+  color: black;
+}
+.books a:hover {
+  color: red;
 }
